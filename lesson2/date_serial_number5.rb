@@ -18,7 +18,6 @@ end
 
 days_in_month = [31, loop_year, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,]
 
-
 if month < 1 || month > 12 || date < 1 || date > days_in_month[month -1 ]
   puts "The date entered is incorrect"
   exit 

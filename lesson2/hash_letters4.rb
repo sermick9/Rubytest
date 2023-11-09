@@ -4,8 +4,6 @@ hash = {}
     hash[letter] = index + 1
   end
 end
-# puts hash
-
 
 hash.each do |letter, index|
   puts "#{letter} ==> #{index}"
